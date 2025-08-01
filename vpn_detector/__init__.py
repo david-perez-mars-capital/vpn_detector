@@ -16,9 +16,9 @@ get_connected_vpn_interfaces = _detector.get_connected_vpn_interfaces
 get_vpn_status_summary = _detector.get_vpn_status_summary
 
 __all__ = [
-    "VPNDetector", 
+    "VPNDetector",
     "is_vpn_connected",
     "get_vpn_interfaces",
-    "get_connected_vpn_interfaces", 
-    "get_vpn_status_summary"
+    "get_connected_vpn_interfaces",
+    "get_vpn_status_summary",
 ]
