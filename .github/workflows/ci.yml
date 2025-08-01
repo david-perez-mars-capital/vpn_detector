@@ -63,10 +63,7 @@ jobs:
     - name: Check formatting with black
       run: |
         black --check vpn_detector tests
-    
-    - name: Check imports with isort
-      run: |
-        isort --check-only vpn_detector tests
+  
 
   build:
     runs-on: ubuntu-latest

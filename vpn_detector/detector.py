@@ -5,8 +5,9 @@ This module provides functions to detect active VPN connections by examining
 network interface statistics.
 """
 
-import psutil
 from typing import Dict, List
+
+import psutil
 
 
 class VPNDetector:

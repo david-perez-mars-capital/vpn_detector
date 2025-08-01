@@ -3,13 +3,14 @@ Tests for VPN detector functionality.
 """
 
 import unittest
-from unittest.mock import patch, MagicMock
+from unittest.mock import MagicMock, patch
+
 from vpn_detector import (
     VPNDetector,
-    is_vpn_connected,
-    get_vpn_interfaces,
     get_connected_vpn_interfaces,
+    get_vpn_interfaces,
     get_vpn_status_summary,
+    is_vpn_connected,
 )
 
 
